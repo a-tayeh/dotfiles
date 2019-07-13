@@ -2,4 +2,6 @@ URxvt.transparent:	true
 URxvt.shading:		45
 URxvt.scrollBar: 	false
 URxvt.font: xft:Hack:size=11
-URxvt.blurRadius: 12
+URxvt.blurRadius: 15
+URxvt.foreground: #aaaaaa
+URxvt.letterSpace: -4
