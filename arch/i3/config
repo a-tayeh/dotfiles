@@ -187,7 +187,7 @@ bindsym $mod+r mode "resize"
 default_border none
 gaps outer 4
 gaps inner 4
-bindsym $mod+shift+x exec i3lock
+bindsym $mod+shift+x exec i3lock -f -i Downloads/cyberpunk.png
 exec_always nitrogen --set-scaled ~/Downloads/cyberpunk.jpg
 #exec_always wal -i ~/Downloads/132980.jpg
 bindcode 123 exec amixer set 'Master' 5%+
@@ -197,4 +197,4 @@ bindcode 233 exec brillo -A 10
 bindcode 232 exec brillo -U 10
 bindcode 238 exec python /usr/local/bin/kb-light.py + 52
 bindcode 237 exec python /usr/local/bin/kb-light.py - 52
-exec ~/.config/polybar/launch.sh
+exec_always ~/.config/polybar/launch.sh
