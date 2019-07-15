@@ -14,10 +14,14 @@ set $mod Mod4
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 font pango:fa-regular-400 10
+font pango:loveska Nerd Font 12
+font pango:Misc Termsyn 12
+font pango:Wuncon Siji 12
+
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
+font pango:DejaVu Sans Mono 8
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -36,7 +40,8 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+#bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec ~/.config/polybar/scripts/launcher-alt
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -185,16 +190,16 @@ bindsym $mod+r mode "resize"
 #   }
 #}
 default_border none
-gaps outer 4
-gaps inner 4
+gaps outer 5
+gaps inner 5
 bindsym $mod+shift+x exec i3lock -f -i Downloads/cyberpunk.png
-exec_always nitrogen --set-scaled ~/Downloads/cyberpunk.jpg
-#exec_always wal -i ~/Downloads/132980.jpg
+exec_always --no-startup-id nitrogen --set-scaled ~/Downloads/cyberpunk.jpg
+exec_always --no-startup-id wal -i ~/Downloads/cyberpunk.jpg
 bindcode 123 exec amixer set 'Master' 5%+
 bindcode 122 exec amixer set 'Master' 5%-
 bindcode 121 exec amixer set 'Master' toggle
-bindcode 233 exec brillo -A 10
-bindcode 232 exec brillo -U 10
+bindcode 233 exec macbook-lighter-screen --inc 180
+bindcode 232 exec macbook-lighter-screen --dec 180
 bindcode 238 exec python /usr/local/bin/kb-light.py + 52
 bindcode 237 exec python /usr/local/bin/kb-light.py - 52
 exec_always ~/.config/polybar/launch.sh
