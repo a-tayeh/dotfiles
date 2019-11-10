@@ -1,2 +1,0 @@
-#!/bin/bash
-chown ali /sys/class/backlight/intel_backlight/brightness
