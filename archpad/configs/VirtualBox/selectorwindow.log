@@ -1,0 +1,20 @@
+00:00:00.258160 VirtualBox GUI VM Selector Window 6.0.14 r132055 linux.amd64 (Oct 16 2019 06:57:26) release log
+00:00:00.258162 Log opened 2019-11-06T18:55:51.871269000Z
+00:00:00.258162 Build Type: release
+00:00:00.258164 OS Product: Linux
+00:00:00.258165 OS Release: 5.3.8-arch1-1
+00:00:00.258166 OS Version: #1 SMP PREEMPT @1572357769
+00:00:00.258184 DMI Product Name: 2344BZU
+00:00:00.258191 DMI Product Version: ThinkPad T430
+00:00:00.258221 Host RAM: 7646MB (7.4GB) total, 6522MB (6.3GB) available
+00:00:00.258223 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.258224 Process ID: 132164
+00:00:00.258224 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.258251 Qt version: 5.13.2
+00:00:00.276216 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.611332 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x31 x 1598x867
+00:00:00.647383 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:13.813577 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:24.747843 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:25.117780 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:25.408902 GUI: UIMediumEnumerator: Medium-enumeration finished!
